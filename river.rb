@@ -11,11 +11,14 @@ def add_fish(fish)
   @capacity.push(fish)
 end
 
+
 def remove_fish()
   return @capacity.pop
 end
 
-
+def fish_count()
+  @capacity.count
+end
 
 
 

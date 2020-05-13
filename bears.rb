@@ -12,6 +12,12 @@ def eat_fish(river)
   @stomach.push(river.remove_fish)
 end
 
+def roar
+  return 'Roar!'
+end
 
+def food_count
+  @stomach.count
+end
 
 end

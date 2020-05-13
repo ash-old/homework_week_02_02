@@ -32,6 +32,11 @@ def test_remove_fish
   assert_equal(0, @river.capacity.size)
 end
 
+def test_fish_count()
+  @river.add_fish(@fish1)
+  assert_equal(1, @river.fish_count)
+end
+
 
 
 
